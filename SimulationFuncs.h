@@ -6,7 +6,7 @@
 #include "SetupFuncs.h"
 #include "TransportRisk.h"
 #include "const_parameters.h"
-#include "declarations.h"
+#include "Declarations.h"
 #include "controls.h"
 
 //Functions that do simulation and reading out of simulation results

@@ -10,7 +10,7 @@ const int NumOfReps = 5000;
 
 //Initialisation parameters
 int StartDayOfYear = 152;
-double OutbreakCounty = 38; 
+double OutbreakCounty = 10; 
 double InitialDensityOfInfectiousMidges = 10;
 double InitialWidthFromCentralSite = 25000;
 
@@ -36,7 +36,7 @@ double SZRadius = 100000;
 
 //~ #define COUNTYBAN
 //~ #define TOTALBAN
-//~ #define NOCONTROL
+#define NOCONTROL
 //~ #define NOFARMBAN
 
 #define PREMOVEMENTTESTS

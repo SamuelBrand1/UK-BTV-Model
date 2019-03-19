@@ -63,6 +63,9 @@ bool MovementBanned; //Determines if the farm has been banned from moving animal
 bool ProtectionZone;
 bool SurveillanceZone;
 bool FreeArea;
+bool EverBeenDetectedDuringRun;
+bool EverBeenInfected; //Determines if the farm has ever had any infected animals
+bool FirstInfectedAnimalDueToMovement; //Determines if the first infected animal on farm was due to movement onto the farm
 
 //Each Days' weather effects
 double TempToday;
@@ -70,7 +73,6 @@ double MeanRainLastWeek;
 double WindToday;
 
 //Faster sim stuff
-bool EverBeenDetectedDuringRun;
 std::vector<int> LocalFarmsID;
 
 //FUNCTIONS FOR LOCAL COUNTS
