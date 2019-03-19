@@ -85,8 +85,22 @@ int main(int argc,char** argv){
 			TotalFarmDaysMovementBanned += TotalNumberOfMovementBannedFarms();
 			TotalFarmDaysAffectedByControl += TotalNumberOfMovementBannedFarms() + TotalNumberOfPZFarms() + TotalNumberOfSZFarms();
 			#ifdef DAILYREADOUT
-			cout<<"On day "<<SimulationDay<<", CET temp ~= "<<TempGrid[75][75][SimulationDay]<<endl;
-			cout<<"Cattle incidence = "<<NumberOfCattleInfectedToday<<", Sheep incidence = "<<NumberOfSheepInfectedToday<<", detected farm incidence = "<<NumOfFarmsDetectedToday<<endl; 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  			cout<<"Cattle incidence = "<<NumberOfCattleInfectedToday<<", Sheep incidence = "<<NumberOfSheepInfectedToday<<", detected farm incidence = "<<NumOfFarmsDetectedToday<<endl; 
 			cout<<"S_C = "<<TotalNumberOfSusCattle()<<", I_C =  "<<TotalNumberOfInfCattle()<<", R_C = "<<TotalNumberOfRecCattle()<<endl; 
 			cout<<"S_S = "<<TotalNumberOfSusSheep()<<", I_S =  "<<TotalNumberOfInfSheep()<<", R_S = "<<TotalNumberOfRecSheep()<<endl; 
 			cout<<"Number of infected farms = "<<TotalNumberOfInfectedFarms()<<", number of affected farms = "<<TotalNumberOfAffectedFarms()<<endl;
