@@ -84,22 +84,9 @@ int main(int argc,char** argv){
 			if(DaysSinceLastDetection == 90){CancelRestrictions();}
 			TotalFarmDaysMovementBanned += TotalNumberOfMovementBannedFarms();
 			TotalFarmDaysAffectedByControl += TotalNumberOfMovementBannedFarms() + TotalNumberOfPZFarms() + TotalNumberOfSZFarms();
-			#ifdef DAILYREADOUT
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+
+
+			#ifdef DAILYREADOUT  
   			cout<<"Cattle incidence = "<<NumberOfCattleInfectedToday<<", Sheep incidence = "<<NumberOfSheepInfectedToday<<", detected farm incidence = "<<NumOfFarmsDetectedToday<<endl; 
 			cout<<"S_C = "<<TotalNumberOfSusCattle()<<", I_C =  "<<TotalNumberOfInfCattle()<<", R_C = "<<TotalNumberOfRecCattle()<<endl; 
 			cout<<"S_S = "<<TotalNumberOfSusSheep()<<", I_S =  "<<TotalNumberOfInfSheep()<<", R_S = "<<TotalNumberOfRecSheep()<<endl; 

@@ -258,6 +258,8 @@ void ResetFarms(){
 		farms[i]->ProtectionZone = false;
 		farms[i]->SurveillanceZone = false;
 		farms[i]->FreeArea = true;
+		farms[i]->EverBeenInfected = false;
+		farms[i]->FirstInfectedAnimalDueToMovement = false;
 		farms[i]->S_cattle = farms[i]->number_of_cattle;
 		farms[i]->S_sheep = farms[i]->number_of_sheep;
 		for(int n = 0;n<NumOfInfStagesSheep;n++){
